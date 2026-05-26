@@ -146,10 +146,78 @@ def contiguous_subarray(arr: List[int], k: int) -> List[List[int]]:
                 result.append(arr[i:j+1])
             else:
                 break
-
+    print(len(result))
     return result
 print(contiguous_subarray([1, 2, 3, 4, 5], 10))
+print(contiguous_subarray([2, 5, 3], 10))
 '''
+8
 [[1], [1, 2], [1, 2, 3], [2], [2, 3], [3], [4], [5]]
+4
+[[2], [2, 5], [5], [3]]
+'''
+
+
+"""
+Question 4:
+Group domain names based on their extensions.
+
+* You are given a list of domain strings.
+* Each domain contains a name and an extension separated by a dot (.).
+* Extract:
+* The domain name (before the dot)
+* The extension (after the dot)
+* Group all domain names based on their extensions.
+* Store the result in a dictionary where:
+* Key → extension
+* Value → list of domain names having that extension
+
+Input:
+domain_list = ['amazon.com', 'indeed.in', 'google.com', 'python.py']
+
+Output:
+{
+'com': ['amazon', 'google'],
+'in': ['indeed'],
+'py': ['python']
+}
+
+
+Input:
+domain_list = ['test.org', 'code.py', 'learn.org']
+
+Output:
+{
+'org': ['test', 'learn'],
+'py': ['code']
+}
+
+Constraints:
+* Use only loops for traversal
+* Do not use inbuilt functions like split()
+* Extract domain name and extension manually
+* Maintain proper grouping in dictionary
+* Preserve all domain names under correct extension
+"""
+
+from typing import Dict, List
+def group_domain(domain_list: List[str]) -> Dict[str, List[str]]:
+    freq = {}
+    for i in domain_list:
+        idx = i.index('.')
+        val = i[0:idx]
+        key = i[idx:]
+        if key not in freq:
+            freq[key] = [val]
+        else:
+            old_vals = freq[key]
+            freq[key] = [val] + old_vals
+    
+    return freq
+print(group_domain(['amazon.com', 'indeed.in', 'google.com', 'python.py']))
+print(group_domain(['test.org', 'code.py', 'learn.org']))
+'''
+{'.com': ['google', 'amazon'], '.in': ['indeed'], '.py': ['python']}
+{'.org': ['learn', 'test'], '.py': ['code']}
 '''
 
