@@ -1,29 +1,18 @@
 import os
 import uuid
 from datetime import datetime
+import google.generativeai as genai
 from flask import Flask, request, jsonify, session
 from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-try:
-    from google import genai
-except Exception as e:
-    genai = None
-    gemini_client = None
-    print(f"Warning: Gemini genai module failed to import. Detail: {e}")
-else:
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-    if GEMINI_API_KEY:
-        try:
-            genai.configure(api_key=GEMINI_API_KEY)
-            gemini_client = genai.Client(api_key=GEMINI_API_KEY)
-        except Exception as e:
-            gemini_client = None
-            print(f"Warning: Gemini API failed to initialize. Detail: {e}")
-    else:
-        gemini_client = None
-        print("Warning: GEMINI_API_KEY not set in environment.")
+
+import google.generativeai as genai
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+genai.GenerativeModel("gemini-1.5-flash")
 
 app = Flask(__name__)
 # Secret key is required for Flask sessions (shopping cart) to work securely
