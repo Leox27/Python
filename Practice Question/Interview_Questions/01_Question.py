@@ -220,4 +220,3 @@ print(group_domain(['test.org', 'code.py', 'learn.org']))
 {'.com': ['google', 'amazon'], '.in': ['indeed'], '.py': ['python']}
 {'.org': ['learn', 'test'], '.py': ['code']}
 '''
-
