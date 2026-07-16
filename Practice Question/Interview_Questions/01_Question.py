@@ -288,3 +288,28 @@ The Shift is 7
 '''
 
 
+"""
+Question 7:
+WAP to print all 3-digit numbers in which the product of the first digit and the
+last digit is equal to the middle digit using pure Python logic.
+
+Output :
+100 111 122 133 144 155
+"""
+
+def equal_product(num: int) -> int:
+    for i in range(100, num+1):
+        first_digit = i // 100
+        middle_digit = (i // 10) % 10
+        last_digit = i % 10
+        
+        result = first_digit * last_digit
+        if result == middle_digit:
+            print(i, end=' ')
+        # return i if result ==  middle_digit else 'Not equal'
+        
+equal_product(999)
+'''
+100 111 122 133 144 155 166 177 188 199 200 221 242 263 284 300 331 362 393 400 441 482 500 551 600 661 700 771 800 881 900 991 
+'''
+
