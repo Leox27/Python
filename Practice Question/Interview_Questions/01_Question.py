@@ -270,7 +270,7 @@ Shift : 2
 Output : 56234
 """
 
-def rotate_digits(Number: int, Direction: str, Shift: int) -> int:
+def shift_digits(Number: int, Direction: str, Shift: int) -> int:
     str_number = str(Number)
     Shift %= len(str_number)
     print(f'The Shift is {Shift}')
@@ -280,5 +280,11 @@ def rotate_digits(Number: int, Direction: str, Shift: int) -> int:
     elif Direction == 'right':
         return str_number[-Shift:] + str_number[:-Shift]
         
-print(rotate_digits(123456789, 'right', 7))
+print(shift_digits(123456789, 'right', 7))
+
+'''
+The Shift is 7
+345678912
+'''
+
 
