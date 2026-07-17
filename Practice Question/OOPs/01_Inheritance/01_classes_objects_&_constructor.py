@@ -81,13 +81,16 @@ class Student2():
     def display(self):
         print(f"Name: {self.name}")
         print(f"Roll No.: {self.rollno}")
-        print(f"Name: {self.marks}")
+        print(f"Marks: {self.marks}")
+        print()
     
     def is_pass(self):
+        print("*** Exam status ***")
         if self.marks >= 40:
             print(f"{self.name} is Passed")
         else:
             print(f"{self.name} is Failed")
+        print()
 
 student4 = Student2("Suraj", 101, 70)
 student5 = Student2("kashinath", 101, 35)
@@ -103,14 +106,24 @@ student6.is_pass()
 '''
 Name: Suraj
 Roll No.: 101
-Name: 70
+Marks: 70
+
+*** Exam status ***
 Suraj is Passed
+
 Name: kashinath
 Roll No.: 101
-Name: 35
+Marks: 35
+
+*** Exam status ***
 kashinath is Failed
+
 Name: Boomer
 Roll No.: 101
-Name: 50
+Marks: 50
+
+*** Exam status ***
 Boomer is Passed
 '''
+
+
