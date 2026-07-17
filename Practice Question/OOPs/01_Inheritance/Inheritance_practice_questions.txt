@@ -13,3 +13,25 @@ displayData()
 isPass() (returns true if marks >= 40)
 
 Create 3 student objects and display whether each student passed.
+
+
+2. (Instance Methods)
+
+Create a class named Student2.
+
+Requirements
+Use the __init__() constructor.
+The class should have these instance variables:
+- name
+- roll_no
+- marks
+
+Create a method named display() that prints all the student's details.
+Create another method named is_pass().
+If marks are 40 or more, print:
+"<name> has Passed"
+Otherwise, print:
+"<name> has Failed"
+Create 3 student objects.
+At least one student should have marks less than 40.
+Call both methods for every object.
