@@ -1,0 +1,50 @@
+### Question on Inheritance (One of the pillar of OOPs)
+
+"""
+Question 1 (Classes, Objects & Constructor)
+
+Create a class named Student1.
+
+Requirements
+Use the __init__() constructor.
+The class should have these instance variables:
+name
+roll_no
+marks
+Create a method named display() that prints all the student's details.
+Create 3 student objects with different values.
+Call the display() method for each object.
+"""
+
+class Student1():
+    
+    def __init__(self, name, rollno, marks):
+        self.name = name
+        self.rollno = rollno
+        self.marks = marks
+    
+    def display_data(self):
+        print(f"Name: {self.name}")
+        print(f"Roll No.: {self.rollno}")
+        print(f"Marks: {self.marks}")
+        
+student1 = Student1("Rahul", 101, 85)
+student2 = Student1("Priya", 101, 91)
+student3 = Student1("Aman", 101, 76)
+
+student1.display_data()
+student2.display_data()
+student3.display_data()
+'''
+Name: Rahul
+Roll No.: 101
+Marks: 85
+Name: Priya
+Roll No.: 101
+Marks: 91
+Name: Aman
+Roll No.: 101
+Marks: 76
+'''
+
+

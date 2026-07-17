@@ -1,0 +1,15 @@
+
+###Inheritance Practice Questions
+
+1. Student Class (Classes, Objects, Methods)
+
+Question:
+Create a Student class with:
+
+Data members: name, rollNo, marks
+Methods:
+setData()
+displayData()
+isPass() (returns true if marks >= 40)
+
+Create 3 student objects and display whether each student passed.
