@@ -202,3 +202,27 @@ It should print:
 "Dog barks"
 Create one Dog object.
 Call the sound() method.
+
+
+
+#9. (Using super() in Method Overriding)
+
+Create a class named Animal.
+
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- name
+Create a method named sound().
+It should print:
+"Animal makes a sound"
+
+Create another class named Dog that inherits from Animal.
+Override the sound() method.
+Inside the overridden method:
+- First call the parent class sound() method.
+- Then print:
+"Dog barks"
+
+Create one Dog object.
+Call the sound() method.
