@@ -97,3 +97,37 @@ Call the display() method for each object.
 Finally, change the company name to "Infosys" using the class name.
 
 Call display() again for all employees and observe the output.
+
+
+
+#5. (Class Methods)
+
+Create a class named Employee.
+
+Requirements
+Use the __init__() constructor.
+Create these instance variables:
+- name
+- employee_id
+- salary
+
+Create one class variable:
+- company_name = "TCS"
+
+Create a class method named change_company().
+The method should take one parameter:
+- new_company
+
+The method should change the company_name to the new company.
+Create a method named display() that prints:
+- Employee Name
+- Employee ID
+- Salary
+- Company Name
+
+Create 2 employee objects.
+Display their details.
+Call the class method to change the company name to "Infosys".
+Display both employees again and observe the change.
+
+
