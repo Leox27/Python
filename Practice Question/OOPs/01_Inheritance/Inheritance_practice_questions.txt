@@ -180,3 +180,25 @@ Create a method named display_student() that prints:
 
 Create 2 Student objects.
 Call display_student() for both objects.
+
+
+
+#8. (Method Overriding)
+
+Create a class named Animal.
+
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- name
+
+Create a method named sound().
+It should print:
+"Animal makes a sound"
+
+Create another class named Dog that inherits from Animal.
+Override the sound() method.
+It should print:
+"Dog barks"
+Create one Dog object.
+Call the sound() method.
