@@ -76,3 +76,4 @@ print(Child.mro())
 '''
 [<class '__main__.Child'>, <class '__main__.Father'>, <class '__main__.Mother'>, <class 'object'>]
 '''
+
