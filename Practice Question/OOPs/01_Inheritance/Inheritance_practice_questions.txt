@@ -339,3 +339,78 @@ It should print:
 
 Create one Student object and one Teacher object.
 Call both display methods.
+
+
+
+
+#13. (Polymorphism - Method Overriding)
+
+Create a class named Shape.
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- name
+Create a method named area().
+It should print:
+"Area of Shape"
+
+Create a class named Circle that inherits from Shape.
+Override the area() method.
+It should print:
+"Area of Circle"
+
+Create another class named Rectangle that inherits from Shape.
+Override the area() method.
+It should print:
+"Area of Rectangle"
+
+Create one Circle object and one Rectangle object.
+Call the area() method for both objects.
+
+
+
+#14. (Diamond Problem)
+
+Create a class named GrandParent.
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- family_name
+Create a method named display_family().
+It should print:
+- Family Name
+
+Create a class named Father that inherits from GrandParent.
+Requirements
+Use the __init__() constructor.
+Create one new instance variable:
+- father_name
+Create a method named display_father().
+It should print:
+- Family Name
+- Father Name
+
+Create another class named Mother that inherits from GrandParent.
+Requirements
+Use the __init__() constructor.
+Create one new instance variable:
+- mother_name
+Create a method named display_mother().
+It should print:
+- Family Name
+- Mother Name
+
+Create another class named Child that inherits from both Father and Mother.
+Requirements
+Use the __init__() constructor.
+Create one new instance variable:
+- child_name
+Create a method named display_child().
+It should print:
+- Family Name
+- Father Name
+- Mother Name
+- Child Name
+
+Create one Child object.
+Call display_child().
