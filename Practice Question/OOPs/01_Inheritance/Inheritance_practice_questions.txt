@@ -226,3 +226,40 @@ Inside the overridden method:
 
 Create one Dog object.
 Call the sound() method.
+
+
+
+#10. (Multilevel Inheritance)
+
+Create a class named Person.
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- name
+Create a method named display_person().
+It should print:
+- Name
+
+Create another class named Student that inherits from Person.
+Requirements
+Use the __init__() constructor.
+Create one new instance variable:
+- roll_no
+Create a method named display_student().
+It should print:
+- Name
+- Roll Number
+
+Create another class named CollegeStudent that inherits from Student.
+Requirements
+Use the __init__() constructor.
+Create one new instance variable:
+- college_name
+Create a method named display_college_student().
+It should print:
+- Name
+- Roll Number
+- College Name
+
+Create one CollegeStudent object.
+Call display_college_student().
