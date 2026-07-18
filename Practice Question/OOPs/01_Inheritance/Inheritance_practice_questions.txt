@@ -151,3 +151,32 @@ Do not create any instance variables.
 Do not use the __init__() constructor.
 
 Call all the methods using the class name.
+
+
+
+#7. (Single Inheritance)
+
+Create a class named Person.
+
+Requirements
+Use the __init__() constructor.
+
+The class should have these instance variables:
+- name
+- age
+Create a method named display_person() that prints:
+- Name
+- Age
+
+Create another class named Student that inherits from Person.
+Use the __init__() constructor.
+
+The Student class should have one new instance variable:
+- roll_no
+Create a method named display_student() that prints:
+- Name
+- Age
+- Roll Number
+
+Create 2 Student objects.
+Call display_student() for both objects.
