@@ -70,3 +70,9 @@ Child Name: Mayur
 Father Name: Saudagar
 Mother Name: Rohini
 '''
+
+# method resolution order (MRO)
+print(Child.mro())
+'''
+[<class '__main__.Child'>, <class '__main__.Father'>, <class '__main__.Mother'>, <class 'object'>]
+'''
