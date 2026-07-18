@@ -301,3 +301,41 @@ Create one Child object.
 Call display_child().
 
 
+
+#12. (Hierarchical Inheritance)
+
+Create a class named Person.
+Requirements
+Use the __init__() constructor.
+The class should have these instance variables:
+- name
+- age
+Create a method named display_person().
+It should print:
+- Name
+- Age
+
+Create a class named Student that inherits from Person.
+Requirements
+Use the __init__() constructor.
+Create one new instance variable:
+- roll_no
+Create a method named display_student().
+It should print:
+- Name
+- Age
+- Roll Number
+
+Create another class named Teacher that inherits from Person.
+Requirements
+Use the __init__() constructor.
+Create one new instance variable:
+- subject
+Create a method named display_teacher().
+It should print:
+- Name
+- Age
+- Subject
+
+Create one Student object and one Teacher object.
+Call both display methods.
