@@ -263,3 +263,39 @@ It should print:
 
 Create one CollegeStudent object.
 Call display_college_student().
+
+
+
+#11. (Multiple Inheritance)
+
+Create a class named Father.
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- father_name
+Create a method named display_father().
+It should print:
+- Father Name
+
+Create another class named Mother.
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- mother_name
+Create a method named display_mother().
+It should print:
+- Mother Name
+
+Create another class named Child that inherits from both Father and Mother.
+Requirements
+Use the __init__() constructor.
+Create one new instance variable:
+- child_name
+Create a method named display_child().
+It should print:
+- Child Name
+- Father Name
+- Mother Name
+
+Create one Child object.
+Call display_child().
