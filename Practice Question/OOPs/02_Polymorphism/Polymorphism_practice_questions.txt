@@ -24,3 +24,27 @@ It should print:
 
 Create one Dog object and one Cat object.
 Call the speak() method for both objects.
+
+
+
+#2. (Polymorphism with Loop)
+
+Create a class named Bird.
+Requirements
+Create a method named sound().
+It should print:
+"Bird makes a sound"
+
+Create another class named Sparrow that inherits from Bird.
+Override the sound() method.
+It should print:
+"Sparrow chirps"
+
+Create another class named Crow that inherits from Bird.
+Override the sound() method.
+It should print:
+"Crow caws"
+
+Create one Sparrow object and one Crow object.
+Store both objects inside a list.
+Use a for loop to call the sound() method for each object.
