@@ -48,3 +48,24 @@ It should print:
 Create one Sparrow object and one Crow object.
 Store both objects inside a list.
 Use a for loop to call the sound() method for each object.
+
+
+
+#3. (Polymorphism with Function)
+
+Create a class named Dog.
+Requirements
+Create a method named speak().
+It should print:
+"Dog barks"
+
+Create another class named Cat.
+Requirements
+Create a method named speak().
+It should print:
+"Cat meows"
+
+Create a function named animal_sound(animal).
+Inside the function, call the speak() method.
+Create one Dog object and one Cat object.
+Call the animal_sound() function for both objects.
