@@ -1,0 +1,26 @@
+
+###Polymorphism Practice Questions
+
+#1. (Polymorphism - Method Overriding)
+
+Create a class named Animal.
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- name
+Create a method named speak().
+It should print:
+"Animal makes a sound"
+
+Create another class named Dog that inherits from Animal.
+Override the speak() method.
+It should print:
+"Dog barks"
+
+Create another class named Cat that inherits from Animal.
+Override the speak() method.
+It should print:
+"Cat meows"
+
+Create one Dog object and one Cat object.
+Call the speak() method for both objects.
