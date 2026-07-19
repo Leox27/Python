@@ -90,3 +90,20 @@ Create a function named start_walk(obj).
 Inside the function, call the walk() method.
 Create one Duck object and one Human object.
 Call the start_walk() function for both objects.
+
+
+
+#5. (Operator Overloading)
+
+Create a class named Number.
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- value
+
+Overload the + operator using the __add__() method.
+The method should return the sum of two Number objects.
+
+Create two Number objects.
+Add them using the + operator.
+Print the result.
