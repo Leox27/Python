@@ -69,3 +69,24 @@ Create a function named animal_sound(animal).
 Inside the function, call the speak() method.
 Create one Dog object and one Cat object.
 Call the animal_sound() function for both objects.
+
+
+
+#4. (Duck Typing)
+
+Create a class named Duck.
+Requirements
+Create a method named walk().
+It should print:
+"Duck is walking"
+
+Create another class named Human.
+Requirements
+Create a method named walk().
+It should print:
+"Human is walking"
+
+Create a function named start_walk(obj).
+Inside the function, call the walk() method.
+Create one Duck object and one Human object.
+Call the start_walk() function for both objects.
