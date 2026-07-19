@@ -107,3 +107,24 @@ The method should return the sum of two Number objects.
 Create two Number objects.
 Add them using the + operator.
 Print the result.
+
+
+
+#6. (Monkey Patching)
+
+Create a class named Student.
+Requirements
+Use the __init__() constructor.
+The class should have one instance variable:
+- name
+Create a method named display().
+It should print:
+"Student Name: <name>"
+
+Create one Student object.
+After creating the object, create a new method named greet() outside the class.
+The greet() method should print:
+"Hello <name>"
+
+Attach the greet() method to the Student object using monkey patching.
+Call both display() and greet().
