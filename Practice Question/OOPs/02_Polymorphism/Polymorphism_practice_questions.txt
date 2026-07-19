@@ -164,3 +164,30 @@ Call the multiply() method with:
 - 2 numbers
 - 3 numbers
 - 5 numbers
+
+
+
+#9. (Duck Typing - Another Practice)
+
+Create a class named Car.
+Requirements
+Create a method named start().
+It should print:
+"Car Started"
+
+Create another class named Bike.
+Requirements
+Create a method named start().
+It should print:
+"Bike Started"
+
+Create another class named Truck.
+Requirements
+Create a method named start().
+It should print:
+"Truck Started"
+
+Create a function named start_vehicle(vehicle).
+Inside the function, call the start() method.
+Create one object of each class.
+Pass all three objects to the start_vehicle() function.
