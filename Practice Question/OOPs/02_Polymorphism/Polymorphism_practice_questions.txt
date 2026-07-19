@@ -128,3 +128,26 @@ The greet() method should print:
 
 Attach the greet() method to the Student object using monkey patching.
 Call both display() and greet().
+
+
+
+#7. (Method Overloading in Python)
+
+Create a class named Calculator.
+Requirements
+Create a method named add().
+The method should work as follows:
+- If 2 numbers are passed, print their sum.
+- If 3 numbers are passed, print their sum.
+- If 4 numbers are passed, print their sum.
+
+Use Python's default arguments.
+Create one Calculator object.
+
+Call the add() method with:
+- 2 numbers
+- 3 numbers
+- 4 numbers
+
+
+
