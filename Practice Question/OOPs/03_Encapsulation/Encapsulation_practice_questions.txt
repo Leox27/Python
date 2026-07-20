@@ -1,0 +1,22 @@
+###Encapsulation Practice Questions
+
+#1. (Public Members)
+
+Create a class named Student.
+Requirements
+Use the __init__() constructor.
+The class should have these public instance variables:
+- name
+- age
+Create a method named display().
+It should print:
+- Name
+- Age
+
+Create one Student object.
+Access and print the name directly using the object.
+Change the name directly using the object.
+Call display() again to verify the change.
+
+
+
