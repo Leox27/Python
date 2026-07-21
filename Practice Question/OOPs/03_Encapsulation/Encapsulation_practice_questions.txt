@@ -73,3 +73,21 @@ The method should return the private balance.
 Create one BankAccount object.
 Use the get_balance() method to access and print the balance.
 Do not access __balance directly from outside the class.
+
+
+
+#5. (Setter Method)
+
+Create a class named BankAccount.
+Requirements
+Use the __init__() constructor.
+Create a private instance variable:
+- __balance
+
+Create a setter method named set_balance().
+The method should accept a new balance and update __balance.
+
+Create one BankAccount object.
+Use the set_balance() method to change the balance.
+Use the get_balance() method to verify the updated balance.
+Do not modify __balance directly from outside the class.
