@@ -20,7 +20,7 @@ Call display() again to verify the change.
 
 
 
-Question 25 (Protected Members)
+#2. (Protected Members)
 
 Create a class named Employee.
 Requirements
@@ -37,3 +37,22 @@ Create one Employee object.
 Call the display() method.
 Access the protected members directly using the object and print them.
 
+
+
+#3. (Private Members)
+
+Create a class named BankAccount.
+Requirements
+Use the __init__() constructor.
+The class should have these private instance variables:
+- __account_holder
+- __balance
+Create a method named display().
+It should print:
+- Account Holder
+- Balance
+
+Create one BankAccount object.
+Call the display() method.
+Try to access __balance directly using the object.
+Observe what happens.
