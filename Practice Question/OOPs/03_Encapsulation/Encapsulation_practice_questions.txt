@@ -56,3 +56,20 @@ Create one BankAccount object.
 Call the display() method.
 Try to access __balance directly using the object.
 Observe what happens.
+
+
+
+#4. (Getter Method)
+
+Create a class named BankAccount.
+Requirements
+Use the __init__() constructor.
+Create these private instance variables:
+- __account_holder
+- __balance
+Create a getter method named get_balance().
+The method should return the private balance.
+
+Create one BankAccount object.
+Use the get_balance() method to access and print the balance.
+Do not access __balance directly from outside the class.
