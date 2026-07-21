@@ -91,3 +91,28 @@ Create one BankAccount object.
 Use the set_balance() method to change the balance.
 Use the get_balance() method to verify the updated balance.
 Do not modify __balance directly from outside the class.
+
+
+
+#6. (Getter and Setter with Validation)
+
+Create a class named BankAccount.
+Requirements
+Use the __init__() constructor.
+Create a private instance variable:
+- __balance
+Create these methods:
+- get_balance()
+- set_balance()
+
+The get_balance() method should return the balance.
+The set_balance() method should update the balance only if the new balance is greater than or equal to 0.
+
+If the new balance is negative, print:
+"Balance cannot be negative"
+
+Create one BankAccount object.
+Display the initial balance.
+Try to set a valid balance.
+Try to set a negative balance.
+Display the final balance.
