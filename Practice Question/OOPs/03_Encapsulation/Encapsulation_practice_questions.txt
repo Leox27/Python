@@ -116,3 +116,27 @@ Display the initial balance.
 Try to set a valid balance.
 Try to set a negative balance.
 Display the final balance.
+
+
+
+#7. (Property Decorator)
+
+Create a class named BankAccount.
+Requirements
+Use the __init__() constructor.
+Create a private instance variable:
+- __balance
+
+Use the @property decorator to create a getter for balance.
+Use the @balance.setter decorator to create a setter for balance.
+
+The balance should be updated only if the new balance is greater than or equal to 0.
+If the new balance is negative, print:
+"Balance cannot be negative"
+
+Create one BankAccount object.
+Read the balance using:
+bank_acc1.balance
+Update the balance using:
+bank_acc1.balance = new_balance
+Display the updated balance.
