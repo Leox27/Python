@@ -85,3 +85,33 @@ refund() should print:
 
 Create a CreditCard object.
 Call both methods.
+
+
+
+#5. (Abstract Class with Constructor and Multiple Methods)
+
+Create an abstract class named Employee.
+Requirements
+Use the __init__() constructor to store:
+- name
+- salary
+
+Create a normal method named display_details().
+It should print the employee name and salary.
+Create two abstract methods:
+- calculate_bonus()
+- work()
+
+Create a child class named Developer.
+
+Implement both abstract methods.
+calculate_bonus():
+    Return 10% of the salary.
+work():
+    Print:
+    "Developer writes code"
+
+Create a Developer object.
+Display the employee details.
+Call work().
+Calculate and print the bonus.
