@@ -42,3 +42,8 @@ bike1 = Bike()
 
 car1.start()
 bike1.start()
+'''
+Car starts with a key
+Bike starts with a self-start
+'''
+
