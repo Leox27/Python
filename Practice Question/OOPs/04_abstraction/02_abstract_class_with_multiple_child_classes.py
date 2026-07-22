@@ -1,23 +1,4 @@
-###Abstraction Questions Practice
-
-#1. (Abstraction - Abstract Class and Abstract Method)
-
-Create an abstract class named Shape.
-Requirements
-Import ABC and abstractmethod from the abc module.
-Create an abstract method named area().
-
-Create a child class named Circle.
-Implement the area() method in Circle.
-
-Use the formula:
-Area = 3.14 * radius * radius
-
-Create a Circle object.
-Call the area() method.
-
-
-
+"""
 #2. (Abstract Class with Multiple Child Classes)
 
 Create an abstract class named Vehicle.
@@ -36,3 +17,28 @@ Bike should print:
 
 Create one object of Car and one object of Bike.
 Call the start() method for both objects.
+"""
+
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+    
+    @abstractmethod
+    def start(self):
+        pass
+    
+class Car(Vehicle):
+    
+    def start(self):
+        print("Car starts with a key")
+
+class Bike(Vehicle):
+    
+    def start(self):
+        print("Bike starts with a self-start")
+        
+car1 = Car()
+bike1 = Bike()
+
+car1.start()
+bike1.start()
