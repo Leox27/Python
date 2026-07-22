@@ -36,3 +36,30 @@ Bike should print:
 
 Create one object of Car and one object of Bike.
 Call the start() method for both objects.
+
+
+
+#3. (Abstract Class with Constructor and Normal Method)
+
+Create an abstract class named Employee.
+Requirements
+Use the __init__() constructor to store:
+- name
+Create a normal method named display_name().
+It should print the employee name.
+Create an abstract method named work().
+
+Create two child classes:
+- Developer
+- Tester
+
+Both classes must implement the work() method.
+Developer should print:
+"Developer writes code"
+Tester should print:
+"Tester tests the software"
+
+Create one Developer object and one Tester object.
+Call both:
+- display_name()
+- work()
