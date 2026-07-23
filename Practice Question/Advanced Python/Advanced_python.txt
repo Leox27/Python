@@ -15,5 +15,12 @@ Print the result.
 
 
 
-#2. 
+#2. (Lambda Function)
+
+Create a lambda function named maximum.
+It should accept two numbers
+and return the greater number.
+Call it with:
+25 and 40
+Print the result.
 .................................................................................................................................
