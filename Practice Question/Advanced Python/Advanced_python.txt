@@ -23,4 +23,18 @@ and return the greater number.
 Call it with:
 25 and 40
 Print the result.
+
+
+
+#3. Sort Students by Marks
+students = [
+    ("Mayur", 85),
+    ("Suraj", 92),
+    ("Vishwas", 78),
+    ("Varun", 95)
+]
+
+
+
+
 .................................................................................................................................
